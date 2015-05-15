@@ -12,7 +12,8 @@
         {% if object.link %}</a>{% endif %}
         <div class="container">
           <div class="carousel-caption">
-             {{ object.text|safe }}
+             {{ object.title|safe }}<br/>
+             {{ object.subtitle|safe }}
           </div>
         </div>
       </div>
