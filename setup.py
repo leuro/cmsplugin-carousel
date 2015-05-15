@@ -7,7 +7,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='cmsplugin-carousel',
-    url='https://github.com/MagicSolutions/cmsplugin-carousel',
+    url='https://github.com/leuro/cmsplugin-carousel',
     version='0.0.1',
     description='A simple app to create DjangoCMS carousels with bootstrap.',
     long_description=README,
