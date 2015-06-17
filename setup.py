@@ -16,9 +16,11 @@ setup(
         'cmsplugin-filer>=0.9.5',
         'django-orderedmodel>=0.1.5',
     ],
+    '''
     dependency_links=[
         'git+https://github.com/MagicSolutions/django-orderedmodel.git@0.1.5#egg=django-orderedmodel-0.1.5',
     ],
+    '''
     packages=find_packages(),
     package_data={'': ['license.txt']},
     include_package_data=True,
